@@ -1,0 +1,8 @@
+# 统一跨平台脚本换行符，避免分发给 macOS/Linux 用户时 bash 脚本因 CRLF 报错
+* text=auto eol=lf
+*.sh text eol=lf
+*.mjs text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.bat text eol=crlf
+*.ps1 text eol=crlf

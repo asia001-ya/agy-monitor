@@ -1,0 +1,50 @@
+{
+  "cwd": "D:\\workspace\\prod-gateway",
+  "model": {
+    "id": "Gemini 4 Argon (High)",
+    "display_name": "Gemini 4 Argon",
+    "effort": "high"
+  },
+  "workspace": {
+    "current_dir": "D:\\workspace\\prod-gateway",
+    "project_dir": "D:\\workspace\\prod-gateway"
+  },
+  "context_window": {
+    "total_input_tokens": 890000,
+    "total_output_tokens": 112000,
+    "context_window_size": 1048576,
+    "used_percentage": 86.5,
+    "remaining_percentage": 13.5
+  },
+  "exceeds_200k_tokens": true,
+  "quota": {
+    "gemini-5h": {
+      "remaining_fraction": 0.08,
+      "reset_in_seconds": 2520
+    },
+    "gemini-weekly": {
+      "remaining_fraction": 0.19,
+      "reset_in_seconds": 172800
+    },
+    "thirdPartyFiveHour": {
+      "remaining_fraction": 0.12,
+      "reset_in_seconds": 5400
+    },
+    "thirdPartyWeekly": {
+      "remaining_fraction": 0.44,
+      "reset_in_seconds": 259200
+    },
+    "legacy-disabled": {
+      "remaining_fraction": 0,
+      "disabled": true
+    }
+  },
+  "agent_state": "reviewing",
+  "vcs": {
+    "type": "git",
+    "branch": "hotfix/auth-token",
+    "dirty": true
+  },
+  "plan_tier": "Pro",
+  "terminal_width": 76
+}

@@ -1,0 +1,58 @@
+{
+  "name": "agy-monitor",
+  "version": "1.0.0",
+  "description": "Antigravity CLI (agy) 实时监控状态栏插件：多模型 5h/周限额、上下文占用、Token 消耗与实时 tok/s、模型专属配色与 Git 分支监控",
+  "type": "module",
+  "license": "MIT",
+  "homepage": "https://github.com/asia001-ya/agy-monitor#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/asia001-ya/agy-monitor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asia001-ya/agy-monitor/issues"
+  },
+  "keywords": [
+    "antigravity",
+    "agy",
+    "statusline",
+    "cli",
+    "monitor",
+    "quota"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "files": [
+    "install.bat",
+    "uninstall.bat",
+    "install.sh",
+    "uninstall.sh",
+    "plugin.json",
+    "config.default.json",
+    "README.md",
+    "LICENSE",
+    "assets/",
+    "bin/",
+    "lib/",
+    "scripts/",
+    "skills/",
+    "test/"
+  ],
+  "bin": {
+    "agy-monitor": "./bin/agy-monitor.mjs",
+    "agy-monitor-statusline": "./bin/statusline.mjs"
+  },
+  "scripts": {
+    "deploy": "node ./scripts/install.mjs",
+    "setup": "node ./scripts/install.mjs",
+    "install:agy": "node ./scripts/install.mjs",
+    "uninstall:agy": "node ./scripts/uninstall.mjs",
+    "pack:zip": "node ./scripts/pack-release.mjs",
+    "test": "node ./test/run-tests.mjs",
+    "preview": "node ./bin/agy-monitor.mjs preview",
+    "preview:minimal": "node ./bin/agy-monitor.mjs preview --mode minimal",
+    "preview:detailed": "node ./bin/agy-monitor.mjs preview --mode detailed",
+    "doctor": "node ./bin/agy-monitor.mjs doctor"
+  }
+}

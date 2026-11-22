@@ -1,0 +1,8 @@
+{
+  "cwd": "D:\\workspace\\new-app",
+  "model": {
+    "display_name": "Gemini 4 Neon"
+  },
+  "agent_state": "initializing",
+  "terminal_width": 100
+}

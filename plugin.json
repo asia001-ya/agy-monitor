@@ -1,0 +1,15 @@
+{
+  "name": "agy-monitor",
+  "displayName": "AGY 用量与状态监控",
+  "version": "1.0.0",
+  "description": "监控 Antigravity CLI (agy) 各模型 5 小时与周配额限额、上下文占用及当前项目/Git 状态的实时状态栏插件与诊断工具。",
+  "author": "asia001-ya",
+  "homepage": "https://github.com/asia001-ya/agy-monitor",
+  "repository": "https://github.com/asia001-ya/agy-monitor",
+  "logo": "assets/logo.svg",
+  "suggestedPrompts": [
+    "查看当前 agy 各模型用量与上下文占用快照",
+    "切换 agy 状态栏显示模式为详细模式",
+    "诊断 agy-monitor 状态栏插件运行状态"
+  ]
+}

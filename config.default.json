@@ -1,0 +1,45 @@
+{
+  "mode": "compact",
+  "quotaDisplay": "remaining",
+  "color": true,
+  "colorProfile": "truecolor",
+  "barStyle": "square",
+  "barWidth": {
+    "context": 8,
+    "quota": 6,
+    "detailed": 10
+  },
+  "showResetTime": true,
+  "showExactResetClock": false,
+  "showVcs": true,
+  "detectGitDirty": true,
+  "showSubPath": true,
+  "showPlanTier": true,
+  "showTokenUsage": true,
+  "showTokenSpeed": true,
+  "showCost": true,
+  "showDisabledQuotas": false,
+  "thresholds": {
+    "contextWarn": 60,
+    "contextCritical": 80,
+    "quotaWarnRemaining": 50,
+    "quotaCriticalRemaining": 20
+  },
+  "modelOrder": [
+    "Gemini",
+    "Neon",
+    "Argon",
+    "Pro",
+    "Flash",
+    "Claude",
+    "GPT",
+    "3P"
+  ],
+  "snapshot": {
+    "enabled": true,
+    "minIntervalMs": 1000
+  },
+  "telemetry": {
+    "enabled": true
+  }
+}

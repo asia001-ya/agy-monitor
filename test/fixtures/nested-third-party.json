@@ -1,0 +1,66 @@
+{
+  "cwd": "/home/dev/payments-service/src/middleware",
+  "model": {
+    "id": "claude-sonnet-4-6",
+    "display_name": "Claude Sonnet 4.6 (Thinking)",
+    "effort": "high"
+  },
+  "workspace": {
+    "current_dir": "/home/dev/payments-service/src/middleware",
+    "project_dir": "/home/dev/payments-service"
+  },
+  "version": "1.5.14",
+  "context_window": {
+    "total_input_tokens": 410000,
+    "total_output_tokens": 92000,
+    "context_window_size": 2097152,
+    "used_percentage": 36.8,
+    "remaining_percentage": 63.2,
+    "current_usage": {
+      "input_tokens": 115000,
+      "output_tokens": 2300,
+      "cache_creation_input_tokens": 8000,
+      "cache_read_input_tokens": 640000
+    }
+  },
+  "quota": {
+    "gemini-5h": {
+      "remaining_fraction": 0.96,
+      "reset_in_seconds": 17200
+    },
+    "gemini-weekly": {
+      "remaining_fraction": 0.89,
+      "reset_in_seconds": 502000
+    },
+    "argon-weekly": {
+      "remaining_fraction": 0.74,
+      "reset_in_seconds": 388800
+    },
+    "third_party": {
+      "provider": "anthropic",
+      "claude-5h": {
+        "remaining_fraction": 0.21,
+        "reset_time": "2026-11-22T20:40:00Z",
+        "reset_in_seconds": 18480
+      },
+      "claude-weekly": {
+        "remaining_fraction": 0.16,
+        "reset_time": "2026-11-26T20:57:00Z",
+        "reset_in_seconds": 365100
+      }
+    }
+  },
+  "agent_state": "tool_use",
+  "vcs": {
+    "type": "git",
+    "branch": "feat/quota-hud",
+    "dirty": false
+  },
+  "cycle_mode": "plan",
+  "plan_tier": "Ultra",
+  "subagents": [
+    { "name": "research-1", "role": "Codebase Researcher", "status": "running" }
+  ],
+  "task_count": 2,
+  "terminal_width": 116
+}

@@ -1,0 +1,73 @@
+{
+  "cwd": "D:\\workspace\\示例项目",
+  "session_id": "3fab7aa5-bd10-4666-a08b-bcb46ddbfde0",
+  "conversation_id": "3fab7aa5-bd10-4666-a08b-bcb46ddbfde0",
+  "conversation_title": "开发 AGY 用量监控状态栏插件",
+  "model": {
+    "id": "Gemini 4 Neon (XHigh)",
+    "display_name": "Gemini 4 Neon (XHigh)",
+    "effort": "xhigh"
+  },
+  "workspace": {
+    "current_dir": "D:\\workspace\\示例项目",
+    "project_dir": "D:\\workspace\\示例项目"
+  },
+  "version": "1.5.14",
+  "context_window": {
+    "total_input_tokens": 182400,
+    "total_output_tokens": 41200,
+    "context_window_size": 1048576,
+    "used_percentage": 14.24,
+    "remaining_percentage": 85.76,
+    "current_usage": {
+      "input_tokens": 63382,
+      "output_tokens": 1246,
+      "cache_creation_input_tokens": 4200,
+      "cache_read_input_tokens": 81500
+    }
+  },
+  "exceeds_200k_tokens": false,
+  "product": "antigravity",
+  "quota": {
+    "gemini-5h": {
+      "remaining_fraction": 0.82,
+      "reset_time": "2026-11-22T19:48:00Z",
+      "reset_in_seconds": 15360
+    },
+    "gemini-weekly": {
+      "remaining_fraction": 0.9378,
+      "reset_time": "2026-11-29T02:32:00Z",
+      "reset_in_seconds": 558000
+    },
+    "claude-5h": {
+      "remaining_fraction": 0.46,
+      "reset_time": "2026-11-22T18:10:00Z",
+      "reset_in_seconds": 9480
+    },
+    "claude-weekly": {
+      "remaining_fraction": 0.68,
+      "reset_time": "2026-11-27T08:00:00Z",
+      "reset_in_seconds": 404880
+    }
+  },
+  "agent_state": "working",
+  "vcs": {
+    "type": "git",
+    "branch": "main",
+    "dirty": true
+  },
+  "cycle_mode": "auto",
+  "sandbox": {
+    "enabled": true
+  },
+  "artifact_count": 2,
+  "plan_tier": "Pro",
+  "task_count": 1,
+  "terminal_width": 128,
+  "tokens_per_second": 46.8,
+  "cost": {
+    "total_usd": 0.4213,
+    "subagent_usd": 0,
+    "estimated": false
+  }
+}
